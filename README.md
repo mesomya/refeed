@@ -23,28 +23,33 @@ it's there — and keeps a private, local archive of everything you've ever save
 
 ## See it in action
 
-<!--
-  📹  DEMO VIDEO GOES HERE.
-  Easiest way to embed on GitHub: open a new Issue (or a comment), drag-and-drop the
-  video file in, wait for it to upload, then copy the generated
-  https://github.com/user-attachments/assets/…  URL and paste it on its own line below
-  (GitHub auto-embeds .mp4 / .mov players). Then delete this comment and the fallback
-  image line.
--->
-
-> _Demo video coming soon._
-
 <div align="center">
-  <img src="docs/in-feed.png" alt="Two resurfaced posts sitting in the Home timeline, indistinguishable from native tweets except for a small 'You liked this' / 'You bookmarked this' line." width="780" />
+  <a href="https://github.com/mesomya/encore/blob/main/docs/encore-demo.mp4">
+    <img src="docs/demo-poster.jpg" width="820" alt="▶ Watch the Encore demo" />
+  </a>
   <br />
-  <sub>Resurfaced posts in the Home feed (dark + light) — native styling, with a small "you saved/liked this" line.</sub>
+  <sub><b>▶ Watch the 1-minute demo</b> — collect your liked &amp; saved posts, then watch them resurface in your feed. <i>(Click to play on GitHub.)</i></sub>
 </div>
+
+<!--
+  Prefer an AUTOPLAYING inline player instead of click-to-play? The clip is only ~5 MB:
+  open a new Issue, drag docs/encore-demo.mp4 into it, copy the generated
+  https://github.com/user-attachments/assets/…  URL it produces, and paste that URL on
+  its own line just above this comment. GitHub then renders an inline autoplay player.
+  The poster above is the no-upload fallback.
+-->
 
 ## Screenshots
 
 | Popup | Dark | Options |
 | :---: | :---: | :---: |
 | <img src="docs/popup.png" width="240" alt="Encore popup" /> | <img src="docs/popup-dark.png" width="240" alt="Encore popup in dark mode" /> | <img src="docs/popup-options.png" width="240" alt="Encore options panel" /> |
+
+<div align="center">
+  <img src="docs/in-feed.png" width="780" alt="Resurfaced posts in the Home timeline" />
+  <br />
+  <sub>Resurfaced posts woven into Home (dark + light) — native styling, with a small "You liked this / You bookmarked this" line.</sub>
+</div>
 
 ## Why
 

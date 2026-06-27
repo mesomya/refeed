@@ -3,4 +3,6 @@
 
 # Binary assets — never touch.
 *.png binary
+*.jpg binary
+*.mp4 binary
 *.zip binary
