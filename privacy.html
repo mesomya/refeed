@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Encore — Privacy Policy</title>
+<style>
+  body { max-width: 720px; margin: 48px auto; padding: 0 20px;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #0f1419; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 19px; margin-top: 34px; }
+  code { background: #eff3f4; padding: 1px 5px; border-radius: 5px; font-size: 14px; }
+  .muted { color: #536471; }
+  a { color: #1d9bf0; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+</style>
+</head>
+<body>
+<h1>Encore — Privacy Policy</h1>
+<p class="muted">Last updated: June 2026</p>
+
+<p>Encore is a browser extension that brings the posts you have liked and bookmarked on X
+(x.com / twitter.com) back into your Home timeline, and keeps a private archive of them.
+This policy explains exactly what data Encore touches and what it does with it.</p>
+
+<h2>The short version</h2>
+<p>Everything Encore does happens <strong>on your own device</strong>. Encore has no server,
+no account, and no analytics. It never sends your data anywhere, never sells or shares it,
+and never accesses your X password or login token.</p>
+
+<h2>What data Encore accesses</h2>
+<ul>
+  <li><strong>Your liked and bookmarked posts</strong> — their text, images, author, and links.
+  This is the content Encore is built to re-surface, and it is stored locally so it can be shown
+  back to you in your own feed.</li>
+  <li><strong>The shape of the requests your browser already makes to X</strong> for your
+  Bookmarks and Likes. Encore reads these on a read-only basis (via the <code>webRequest</code>
+  permission) only to learn how to ask X for your own posts, then replays that request using your
+  existing logged-in session. It does not record your browsing and does not observe any site
+  other than X.</li>
+</ul>
+
+<h2>What Encore never accesses</h2>
+<ul>
+  <li>Your X password or login cookie — the <code>auth_token</code> session cookie is never read.</li>
+  <li>Any website other than x.com / twitter.com.</li>
+  <li>Your name, email, location, payment details, browsing history, or any personally
+  identifying information.</li>
+</ul>
+
+<h2>Where your data is stored</h2>
+<p>Your collected posts and settings live in the browser's own local storage on your device
+(<code>chrome.storage.local</code> and IndexedDB, on the extension's private origin). Nothing is
+ever uploaded to Encore or to any third party. The only network requests Encore makes go to X's
+own servers — the same ones your browser already talks to — to fetch your own posts.</p>
+
+<h2>Data sharing, sale, and use</h2>
+<p>Encore does not sell or transfer your data to anyone. It does not use your data for
+advertising, creditworthiness, lending, or any purpose other than showing your own saved posts
+back to you. It performs no action on your account — it never likes, follows, posts, replies, or
+messages on your behalf.</p>
+
+<h2>Removing your data</h2>
+<p>Use &ldquo;Empty the library&rdquo; in the Encore popup to wipe your local archive at any time,
+or remove the extension to delete everything it stored.</p>
+
+<h2>Permissions, and why they are used</h2>
+<ul>
+  <li><code>storage</code> / <code>unlimitedStorage</code> — keep your archive and settings on your device.</li>
+  <li><code>scripting</code> — attach Encore to an x.com tab that was already open when the extension was enabled, without forcing a reload.</li>
+  <li><code>webRequest</code> — read-only; learn the shape of your own Bookmarks/Likes request so it can be replayed. It never blocks, modifies, or redirects any request.</li>
+  <li>Host access to <code>x.com</code> / <code>twitter.com</code> — Encore runs only on X.</li>
+</ul>
+
+<h2>Open source</h2>
+<p>Encore's full source code is public, so anyone can verify exactly what it does:
+<a href="https://github.com/mesomya/encore">github.com/mesomya/encore</a>.</p>
+
+<h2>Contact</h2>
+<p>Questions or concerns: open an issue at
+<a href="https://github.com/mesomya/encore/issues">github.com/mesomya/encore/issues</a>.</p>
+
+<p class="muted">Encore is an independent project and is not affiliated with, endorsed by, or
+sponsored by X Corp.</p>
+</body>
+</html>
