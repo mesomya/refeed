@@ -24,7 +24,7 @@ English (United States)
 
 ### Summary
 
-Bring your saved X bookmarks back into your timeline. Likes are optional. Private, on-device, and read-only.
+Bring your saved X bookmarks back into your timeline, so the posts you meant to revisit actually resurface.
 
 ### Detailed Description
 
@@ -61,7 +61,7 @@ Mature content: Off
 
 ### Single Purpose
 
-Refeed brings the user's own saved X bookmarks back into their Home timeline and keeps a private, on-device archive of those saved posts. Liked posts can optionally be collected too, but bookmarks are the primary purpose.
+Refeed brings the user's own saved X bookmarks back into their Home timeline and keeps a private, on-device archive of those saved posts. 
 
 ### Permission Justifications
 
@@ -107,7 +107,7 @@ https://github.com/mesomya/refeed/blob/main/PRIVACY.md
 Refeed only acts on x.com while the reviewer is logged into an X account. To test it:
 
 1. Enable the extension; it appears in the toolbar as Refeed.
-2. Go to https://x.com and log in to an X account that already has some bookmarked posts. Liked posts are optional.
+2. Go to https://x.com and log in to an X account that already has some bookmarked posts. 
 3. Open the Bookmarks page once. If testing likes too, open the profile's Likes tab once. This lets Refeed observe, read-only, the request it later replays. Nothing is uploaded.
 4. Click the Refeed toolbar icon and press Collect everything. The Collected / Liked / Saved counts climb as it gathers saved posts into local storage.
 5. Go to the Home timeline and scroll. Every few posts, one of the user's saved posts is woven in and tagged with why it appeared.
@@ -128,5 +128,6 @@ After the logo is chosen, regenerate:
 - 1280x800 screenshots
 - 1400x560 marquee promo tile
 - 440x280 small promo tile
+
 
 
